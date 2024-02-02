@@ -1,8 +1,8 @@
 module B220581CS_VANKAYALAPATI_2(
 						input clk,output reg NS,EW);
 
-parameter NSs=1'b0;
-parameter EWs=1'b1;
+parameter NSs=2'b00;
+parameter EWs=2'b01;
 
 reg state=NSs;
 integer count=0;
